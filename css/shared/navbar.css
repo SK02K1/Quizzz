@@ -1,0 +1,25 @@
+.navbar {
+  background-color: transparent;
+  box-shadow: var(--shadow-sm);
+}
+
+.logo > a {
+  color: var(--clr-accent-500);
+}
+
+.avatar {
+  border: 2px solid var(--white);
+  padding: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    padding: 1rem 6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    padding: 1rem 16rem;
+  }
+}
