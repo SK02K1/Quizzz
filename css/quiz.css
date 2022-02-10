@@ -1,0 +1,30 @@
+@import url(./shared/main-wrapper.css);
+
+.text-highlight {
+  font-weight: 600;
+  color: var(--clr-accent-500);
+}
+
+.quiz-card {
+  padding: 2rem;
+  margin: 0 auto;
+  border-radius: var(--br-xl);
+  box-shadow: var(--shadow-lg);
+}
+
+.quiz-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.option {
+  width: 100%;
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .quiz-card {
+    width: 80%;
+  }
+}
