@@ -1,0 +1,7 @@
+@import url(./shared/main-wrapper.css);
+@import url(./shared/navbar.css);
+@import url(./quiz.css);
+
+.quiz-card {
+  margin-bottom: 4rem;
+}
