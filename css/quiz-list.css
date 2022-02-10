@@ -5,7 +5,6 @@
   border-radius: var(--br);
   box-shadow: var(--shadow);
   overflow: hidden;
-  width: 80%;
   margin: 2rem auto;
 }
 
@@ -15,4 +14,16 @@
 
 .info-card-content {
   padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .quiz-info-card {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .quiz-info-card {
+    width: 60%;
+  }
 }
